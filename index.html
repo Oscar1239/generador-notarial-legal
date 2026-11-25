@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de privacidad · Asistente KYC — Generador Notarial</title>
+  <meta name="description" content="Política de privacidad de la extensión Asistente KYC — Generador Notarial para Microsoft Edge y Google Chrome.">
+  <style>
+    :root { --ink:#1f2933; --accent:#0f4a35; --accent-soft:#edf6f1; --muted:#5a675f; --bg:#f7faf8; --surface:#ffffff; --line:#cfe0d7; }
+    @media (prefers-color-scheme: dark) {
+      :root { --ink:#e6ede9; --accent:#7fcfaa; --accent-soft:#16302a; --muted:#a3b3aa; --bg:#0f1714; --surface:#16201c; --line:#2a3d35; }
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:1rem/1.65 "Segoe UI",system-ui,sans-serif; }
+    header { background:#0f4a35; color:#fff; padding:1.75rem 1rem; }
+    header > div, main { max-width:46rem; margin:0 auto; }
+    .brand { display:flex; align-items:center; gap:.6rem; font-weight:700; letter-spacing:.02em; color:#cfe7dc; font-size:.9rem; }
+    .mark { display:grid; place-items:center; width:2rem; height:2rem; border-radius:50%; background:#fff; color:#0f4a35; font-weight:800; font-size:.8rem; border:2px solid #e2c15b; }
+    h1 { font-size:clamp(1.5rem,4vw,2rem); line-height:1.25; margin:.75rem 0 0; }
+    main { padding:2rem 1rem 3rem; }
+    h2 { font-size:1.15rem; color:var(--accent); margin:2rem 0 .4rem; }
+    p, li { margin:.45rem 0; }
+    ul { padding-left:1.25rem; }
+    code { font:.9em ui-monospace,Consolas,monospace; background:var(--accent-soft); padding:.05rem .35rem; border-radius:.3rem; }
+    .meta { color:var(--muted); font-size:.9rem; margin-top:0; }
+    .summary { background:var(--surface); border:1px solid var(--line); border-left:4px solid var(--accent); border-radius:.6rem; padding:1rem 1.25rem; }
+    a { color:var(--accent); }
+    hr { border:0; border-top:1px solid var(--line); margin:2.5rem 0 0; }
+  </style>
+</head>
+<body>
+  <header><div>
+    <div class="brand"><span class="mark" aria-hidden="true">GN</span>Generador Notarial</div>
+    <h1>Política de privacidad del Asistente KYC</h1>
+  </div></header>
+  <main>
+    <p class="meta">Extensión «Asistente KYC — Generador Notarial» para Microsoft Edge y Google Chrome · Última actualización: 25 de noviembre de 2026</p>
+
+    <p class="summary">En resumen: la extensión solo funciona cuando el personal de una notaría inicia una consulta desde su propio sistema Generador Notarial. Escribe los datos del compareciente en portales oficiales de consulta y envía la evidencia del resultado únicamente al servidor de esa notaría. El desarrollador no recibe ningún dato. No hay venta ni cesión de datos, analítica, publicidad ni almacenamiento permanente en el navegador.</p>
+
+    <h2>Qué es</h2>
+    <p>Generador Notarial es un sistema de gestión para notarías públicas en México; cada notaría lo instala y opera en sus propios servidores. El Asistente KYC es su extensión de navegador: ayuda al personal de la notaría a verificar la identidad y los antecedentes (KYC) de los comparecientes en portales oficiales de consulta pública: vigencia de la credencial para votar (INE), Registro Nacional de Obligados Alimentarios (RNOA), lista de fugitivos de la DEA y búsquedas públicas en Google (FGR y perfil web). Requiere una cuenta en el Generador Notarial de una notaría y no tiene otra función.</p>
+
+    <h2>Datos que trata</h2>
+    <ul>
+      <li><strong>Datos del compareciente</strong> que el Generador Notarial de la notaría entrega para cada consulta: nombre, CURP o los datos de la credencial para votar que pide el portal (CIC, identificador del ciudadano, OCR, clave de elector, número de emisión).</li>
+      <li><strong>Contenido de la página de resultados</strong> del portal oficial: una captura de la página completa, su texto y su dirección, o el certificado PDF que genera el RNOA.</li>
+    </ul>
+    <p>La extensión no lee el historial de navegación, contraseñas, formularios de otros sitios ni ninguna página fuera de los portales mencionados y del Generador Notarial. No registra clics, teclas ni ubicación.</p>
+
+    <h2>Cómo los usa</h2>
+    <ul>
+      <li>Escribe los datos del compareciente en el formulario del portal oficial. La persona usuaria resuelve el captcha y envía la consulta; la extensión nunca lo hace por ella.</li>
+      <li>Cuando la persona usuaria lo indica (botón del panel, atajo Alt+Shift+K, icono o menú contextual), toma la captura del resultado y la envía al expediente de ese compareciente.</li>
+    </ul>
+
+    <h2>A quién se envían</h2>
+    <p>Solo al servidor del Generador Notarial de la notaría que inició la consulta, mediante un ticket temporal válido para un solo compareciente y una sola fuente. Los datos llegan a cada portal oficial únicamente porque se escriben en su formulario para hacer la consulta. Ni la extensión ni su desarrollador reciben, venden, ceden o comparten esos datos con terceros, y no se usan para publicidad, perfiles comerciales ni evaluación crediticia.</p>
+
+    <h2>Cuánto tiempo se conservan en el navegador</h2>
+    <p>La extensión guarda solo la cola de la consulta en curso, en la memoria de sesión del navegador (<code>storage.session</code>). Se borra al terminar la consulta, al cerrar su pestaña o a los 30 minutos como máximo. No usa almacenamiento permanente, cookies propias ni servicios de analítica.</p>
+
+    <h2>Responsable de los datos</h2>
+    <p>Cada notaría que usa el Generador Notarial es responsable del tratamiento de los datos personales de sus comparecientes, conforme a su aviso de privacidad y a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares. Para ejercer derechos de acceso, rectificación, cancelación u oposición sobre un expediente, dirígete a la notaría correspondiente.</p>
+
+    <h2>Cambios y contacto</h2>
+    <p>Si esta política cambia, se actualizará la fecha de esta página. Preguntas sobre la extensión: <a href="mailto:oscarromero265@outlook.com">oscarromero265@outlook.com</a>.</p>
+
+    <hr>
+    <h2 lang="en">English summary</h2>
+    <p lang="en">"Asistente KYC — Generador Notarial" is the browser extension of Generador Notarial, a management system that each Mexican notary office runs on its own servers. It only works when notary staff start a lookup from their own system. It pre-fills the client's name, CURP or voter-ID data into official public lookup portals (INE, RNOA, DEA, Google search) and, when the user asks, sends a screenshot or PDF of the result exclusively to that notary office's own server. The developer receives no data. Data is never sold or shared with third parties, there is no analytics or advertising, and the only data kept in the browser is the current lookup queue in session storage, deleted when the lookup ends or after 30 minutes. Each notary office is the data controller for its clients' personal data. Contact: oscarromero265@outlook.com.</p>
+  </main>
+</body>
+</html>
